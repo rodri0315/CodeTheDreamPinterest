@@ -1,5 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 $body-bg:		#3498db;
+$font-family-sans-serif:		"Montserrat", Arial;
 $navbar-inverse-bg:		#16a085;
+$navbar-height:		45px;
 $navbar-inverse-link-color:		#2c3e50;
 $navbar-inverse-link-hover-color:		white;
 $navbar-inverse-brand-hover-color: 	red;
@@ -9,4 +13,13 @@ $jumbotron-heading-color:		#34495e;
 $navbar-inverse-toggle-border-color:		red;
 $dropdown-bg:		black;
 $dropdown-link-hover-bg:		black;
+
 @import "bootstrap";
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
