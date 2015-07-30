@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def andrea
+  def jorge
   end
   
   def about
